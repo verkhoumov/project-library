@@ -1,0 +1,451 @@
+html
+{
+	position: relative;
+
+	min-height: 100%;
+}
+
+body
+{
+	margin-bottom: 200px; /* footer height + padding (150px + 50px) */
+	padding-top: 70px;
+}
+
+body.user-role
+{
+	padding-top: 120px;
+}
+
+/*
+ *	Текст.
+ */
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.no-margin-bottom-sm {
+	margin-bottom: 0;
+}
+
+/*
+ *	Подвал сайта.
+ */
+.footer
+{
+	position: absolute;
+	bottom: 0;
+
+	width: 100%;
+	height: 150px;
+	padding: 15px 0;
+
+	color: #fff;
+	border-top: 1px solid #000;
+	background-color: #222;
+}
+
+.footer p
+{
+	color: #a9a9a9;
+}
+
+/*
+ *	Шапка сайта.
+ */
+.panorama {
+	background-color: #5D586F;;
+	padding: 30px 0;
+	margin-top: -20px;
+}
+
+.panorama .page-header-h1 {
+	line-height: 48px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.panorama-align {
+	text-align: right;
+}
+
+ol.visions {
+	flex: 1 1 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ol.visions > li {
+	display: flex;
+}
+
+ol.visions > li.group {
+	width: 220px;
+    float: none;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding-bottom: 0;
+    vertical-align: top;
+    text-align: left;
+}
+
+ol.visions > li.group:first-of-type {
+	margin: 0;
+}
+
+ol.visions li div.vision {
+	position: relative;
+    clear: left;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+
+ol.visions li div.vision div.vision-shot {
+	padding: 10px;
+}
+
+ol.visions li div.vision-img {
+	max-width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    overflow: hidden;
+}
+
+ol.visions li div.vision-img img {
+	max-width: 100%;
+}
+
+ol.visions li div.vision a.vision-over {
+	opacity: 0;
+	transition: opacity 250ms ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 2;
+    text-decoration: none;
+    color: #888;
+    background: #fff;
+    background: rgba(255,255,255,0.96);
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+ol.visions li div.vision-img:hover a.vision-over {
+	opacity: 1;
+    transition: opacity 250ms ease;
+}
+
+ol.visions strong {
+	display: block;
+    margin: 0 0 4px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #444444;
+}
+
+ol.visions .vision-desc {
+	display: block;
+    margin: 0 0 10px 0;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #777777;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ol.visions .vision-href {
+	display: block;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    margin: 0 0 3px 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    color: #777777;
+}
+
+/*
+ *	Цитата.
+ */
+blockquote
+{
+	font-size: 20px;
+	font-style: italic;
+
+	float: none;
+
+	text-align: center;
+
+	border: none;
+}
+
+/*
+ *	Изображение книги.
+ */
+.img.book
+{
+	margin: 25px 0;
+}
+
+/*
+ *	Элементы группы/списка.
+ */
+.item + .item
+{
+	margin-top: 20px;
+}
+
+.well > .item {
+	margin-top: 0;
+}
+
+/*
+ *	Отступы между табличными элементами списка.
+ */
+.item.list-group-item
+{
+	margin-top: 0;
+	padding: 15px;
+}
+
+.item.list-group-item:first-of-type
+{
+	margin-top: 15px;
+}
+
+/*
+ *	Кнопка "Редактировать".
+ *	Отступ от кнопки "Удалить".
+ */
+.edit-button
+{
+	margin-bottom: 10px;
+}
+
+/*
+ *	Выделение онлайн пользователей.
+ */
+.item.list-group-item.online
+{
+	border: 1px solid #d2f7c3;
+	background-color: #f2fdee;
+}
+
+.item.list-group-item.online + .item.list-group-item
+{
+	border-top: 1px solid #d2f7c3;
+}
+
+/*
+ *	Выделение элемента списка активным цветом.
+ */
+.item.list-group-item:hover
+{
+	border: 1px solid #fce2bc !important;
+	background-color: #fef5e8;
+}
+
+.item.list-group-item:hover + .item.list-group-item
+{
+	border-top: 1px solid #fce2bc;
+}
+
+/*
+ *	Заголовок элемента списка.
+ */
+.item h3
+{
+	line-height: 26px;
+
+	margin: 6px 0;
+}
+
+.item.admin h3
+{
+	margin-top: 0;
+}
+
+/*
+ *	Текст элемента списка.
+ */
+.item p
+{
+	line-height: 23px;
+}
+
+/*
+ *	Время публикации.
+ */
+.time
+{
+	font-style: italic;
+
+	cursor: pointer;
+
+	color: #aaa;
+}
+
+.time:hover
+{
+	text-decoration: underline;
+}
+
+/*
+ *	Иконки в таблицах.
+ */
+.table-icon
+{
+	width: 38px;
+
+	text-align: center;
+
+	color: #dadada;
+}
+
+/*
+ *	Полоска с группой, в которой состоит пользователь.
+ *	Отображается после авторизации.
+ */
+.attention
+{
+	position: fixed;
+	z-index: 90;
+	top: 50px;
+
+	width: 100%;
+	padding: 16px 15px;
+
+	text-align: center;
+
+	color: #fff;
+	background-color: rgba(249, 201, 132, .95);
+}
+
+.attention h2
+{
+	margin: 0;
+}
+
+/*
+ *	Убрать закругление углов.
+ */
+.btn,
+.form-control,
+.well,
+.alert
+{
+	-webkit-border-radius: 0;
+			border-radius: 0;
+}
+
+/*
+ *	Кнопка "Назад".
+ */
+.btn-backward
+{
+	position: fixed;
+	z-index: 100;
+	top: 59px;
+
+	color: rgba(0, 0, 0, .6);
+	border-color: #dcaf6e;
+	background-color: #ffd291;;
+}
+
+/*
+ *	Меню.
+ */
+.navbar-brand
+{
+	padding: 10px 15px;
+}
+
+.navbar-inverse
+{
+	background-color: rgba(19, 19, 19, .90);
+}
+
+/*
+ *	Позиционировать текст слева до -sm.
+ */
+.text-sm-right
+{
+	text-align: right;
+}
+
+/*
+ *	Серый блок.
+ */
+.well
+{
+	margin-top: 25px;
+
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+
+/*
+ *	Блоки оповещений.
+ */
+.alert
+{
+	margin-bottom: 15px;
+	padding: 10px 13px;
+}
+
+.alert + .form-control
+{
+	color: #a94442;
+	border-color: #ebccd1;
+}
+
+/*
+ *	Карусель.
+ */
+.carousel
+{
+	margin-top: -20px;
+}
+
+.carousel .item img
+{
+	width: 50%;
+	margin: 0 auto;
+}
+
+/*
+ *	Позиционирование иконок.
+ */
+.glyphicon.icon,
+.glyphicon.icon-inverse
+{
+	top: 2px;
+
+	margin-right: 5px;
+}
+
+.glyphicon.icon-inverse
+{
+	margin-left: 5px;
+}
+
+/*
+ *	Скрытие слишком длинного текста.
+ */
+.text-overflow
+{
+	overflow: hidden;
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
