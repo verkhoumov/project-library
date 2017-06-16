@@ -1,10 +1,12 @@
 Материалы
 ---
-* [Веб-сайт](http://biblioteka.dverkh.com/)
-* [Исходный код](https://github.com/verkhoumov/project_biblioteka/tree/master/project/www)
-* [База данных](https://github.com/verkhoumov/project_biblioteka/tree/master/project/db)
+* [Веб-сайт](http://library.verkhoumov.ru/)
 * Логин: demo
 * Пароль: demo
+
+* [Исходный код](https://github.com/verkhoumov/project-library/tree/master/project/www)
+* [База данных](https://github.com/verkhoumov/project-library/tree/master/project/db)
+* [Информация о разработке](https://verkhoumov.ru/projects/library)
 
 Технологии
 ---
@@ -16,8 +18,5 @@
 ---
 Проект "Электронная библиотечная система" был реализован во время обучения на 4 курсе бакалавриата университета СПбГУП, на кафедре Прикладной информатики, по направлению "Прикладная информатика в экономике".
 
-Автор работы: Верхоумов Дмитрий Олегович.
-
-Дата разработки: март-апрель 2016 года.
-
-    Вопросы и предложения можно отправить на почту: verkhoumov@yandex.ru
+---
+Вопросы и предложения можно отправить на почту: verkhoumov@yandex.ru
