@@ -3,7 +3,6 @@
 * [Веб-сайт](http://library.verkhoumov.ru/)
 * Логин: demo
 * Пароль: demo
-
 * [Исходный код](https://github.com/verkhoumov/project-library/tree/master/project/www)
 * [База данных](https://github.com/verkhoumov/project-library/tree/master/project/db)
 * [Информация о разработке](https://verkhoumov.ru/projects/library)
