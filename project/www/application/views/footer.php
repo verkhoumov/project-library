@@ -15,7 +15,7 @@
 					
 					<div class="col-sm-offset-1 col-sm-6">
 						<h3 class="h4">Библиотека</h2>
-						<p><i>Научная библиотека филиала Российского Экономического Университета в городе Алматы (РЭУ Алматы им. Азарова)<br>Вы можете <a href="https://github.com/verkhoumov/project_biblioteka" target="_blank">изучить и скачать исходный код проекта</a> на GitHub.</i></p>
+						<p><i>Научная библиотека филиала Российского Экономического Университета в городе Алматы (РЭУ Алматы им. Азарова)<br>Вы можете <a href="https://github.com/verkhoumov/project-library" target="_blank">изучить и скачать исходный код проекта</a> на GitHub.</i></p>
 					</div>
 				</div>
 			</div>
